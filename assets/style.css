@@ -1,0 +1,63 @@
+body{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.card .card-header{
+    color: white;
+    background-color: #0F3B5F;
+    text-align: center;
+}
+.card{
+    height:100vh
+}
+.card .card-body .result{
+    /* border:1px solid red; */
+    height: 50px;;
+    width:600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card .card-body{
+    background-color: #e6e6e6;
+}
+.card .card-body .result span{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 15px;;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card .option{
+    padding: 80px 0;
+}
+.card .card-body .option button{
+    margin:10px 15px;
+    background: transparent;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+    border-radius: 40px;
+}
+.card .card-body .option button:hover{
+    transform: scale(1.050);
+    transition: all 0.2s;
+}
+
+.card .card-body .option button img{
+    width:200px;
+    height:200px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color:black
+}
+#comchoice{
+    font-size: 30px;
+    font-family: monospace;
+    color:#0F3B5F
+}
